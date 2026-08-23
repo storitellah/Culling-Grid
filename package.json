@@ -2,7 +2,7 @@
   "name": "culling-grid",
   "version": "1.0.0",
   "private": true,
-  "description": "BURST_CULLER — a fast, keyboard-driven photo culling tool for burst photography",
+  "description": "Culling Grid by Storitellah — a fast, keyboard-driven, RAW-ready photo culling tool that runs 100% locally in the browser",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "jspdf": "^2.5.2",
+    "jszip": "^3.10.1",
     "lucide-react": "^0.454.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "utif": "^3.1.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
